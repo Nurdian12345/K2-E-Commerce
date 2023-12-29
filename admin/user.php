@@ -51,9 +51,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['halaman']) && $_GET['ha
 <table class="table table-bordered table-hover mt-3">
     <tr>
         <td>No</td>
-        <td>Nama lengkap</td>
-        <td>email</td>
-        <td>aksi</td>
+        <td>Nama Lengkap</td>
+        <td>Email</td>
+        <td>Aksi</td>
     </tr>
     <?php foreach ($users as $user) : ?>
         <tr>
